@@ -1,5 +1,12 @@
-import Image from "next/image";
+import { NavbarDesktop } from "../components/NavbarDesktop";
+import { Hero } from "../components/Hero";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <>
+      <NavbarDesktop />
+      <Hero />
+      <main></main>
+    </>
+  );
 }
