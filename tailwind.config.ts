@@ -16,8 +16,8 @@ const config: Config = {
         orange: "#FFA289",
       },
       fontFamily: {
-        archivo: ["Archivo", "sans-serif"],
-        archivoBlack: ["Archivo Black", "sans-serif"],
+        archivo: ["var(--font-archivo)"],
+        archivo_black: ["var(--font-archivo_black)"],
       },
     },
   },

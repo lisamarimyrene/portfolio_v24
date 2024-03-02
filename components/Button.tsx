@@ -4,25 +4,28 @@ import { cn } from "../utils";
 import { FC } from "react";
 import Link from "next/link";
 
-const buttonVariants = cva("rounded-full px-6 py-2", {
-  variants: {
-    variant: {
-      orange:
-        "bg-orange text-purple-dark hover:bg-purple-dark hover:text-orange hover:stroke-inherit hover:stroke-1 hover:stroke-[#FFA289]",
-      white:
-        "bg-purple-light text-purple-dark hover:bg-purple-dark hover:text-purple-light hover:stroke-inherit hover:stroke-1 hover:stroke-[#F7F3FF]",
-      whiteStroke:
-        "stroke-1 stroke-[#FFA289] hover:bg-purple-light hover:stroke-0 hover:text-purple-dark",
-      purpleStroke:
-        "stroke-1 stroke-[#F7F3FF] hover:bg-purple-light hover:stroke-0 hover:text-purple-dark",
+const buttonVariants = cva(
+  "rounded-full w-full md:w-auto px-6 py-4 md:py-2 mb-4 md:mb-0",
+  {
+    variants: {
+      variant: {
+        orange:
+          "bg-orange text-purple-dark hover:bg-purple-dark hover:text-orange hover:stroke-inherit hover:stroke-1 hover:stroke-[#FFA289]",
+        white:
+          "bg-purple-light text-purple-dark hover:bg-purple-dark hover:text-purple-light hover:stroke-inherit hover:stroke-1 hover:stroke-[#F7F3FF]",
+        whiteStroke:
+          "stroke-1 stroke-[#FFA289] hover:bg-purple-light hover:stroke-0 hover:text-purple-dark",
+        purpleStroke:
+          "stroke-1 stroke-[#F7F3FF] hover:bg-purple-light hover:stroke-0 hover:text-purple-dark",
+      },
+      size: {
+        default: "text-base",
+        sm: "text-sm",
+        lg: "text-lg",
+      },
     },
-    size: {
-      default: "text-base",
-      sm: "text-sm",
-      lg: "text-lg",
-    },
-  },
-});
+  }
+);
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,

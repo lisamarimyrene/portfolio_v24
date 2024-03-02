@@ -1,8 +1,8 @@
-import { Button, buttonVariants } from "./Button";
+import { Button } from "./Button";
 
 export function Hero() {
   return (
-    <div className="bg-purple-dark h-auto text-purple-light px-6 md:px-20 py-6 md:py-16 pb-8 md:pb-16">
+    <div className="bg-purple-dark h-auto text-purple-light px-6 md:px-20 py-3 pt-8 md:py-16 md:pb-26">
       <h1 className="md:leading-[130%]">Lisa Mari Myrene</h1>
       <h2 className="md:leading-[90%] md:mb-8 mb-6 text-orange">
         Code, design & user-experience
@@ -11,7 +11,7 @@ export function Hero() {
         I am dedicated in developing and prototyping modern and robust web
         solutions.{" "}
       </p>
-      <div className="mt-12 w-[350px] flex justify-between">
+      <div className="mt-12 w-full md:w-[350px] h-[180px] flex flex-col md:flex-row md:justify-between">
         <Button
           href="/about"
           variant="orange"

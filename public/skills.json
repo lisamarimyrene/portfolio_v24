@@ -1,0 +1,33 @@
+[
+  {
+    "skillsRow1": [
+      "bash",
+      "html5",
+      "css3",
+      "react",
+      "express",
+      "nodejs",
+      "python",
+      "php",
+      "nextjs",
+      "mongodb",
+      "javascript",
+      "mysql"
+    ]
+  },
+  {
+    "skillsRow2": [
+      "vscode",
+      "github",
+      "figma",
+      "dreamweaver",
+      "photoshop",
+      "illustrator",
+      "raspberrypi",
+      "swagger",
+      "storybook",
+      "tailwindcss",
+      "sass"
+    ]
+  }
+]

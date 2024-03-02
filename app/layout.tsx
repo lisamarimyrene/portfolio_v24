@@ -7,7 +7,7 @@ const archivo = Archivo({
   variable: "--font-archivo",
 });
 
-const archivoBlack = Archivo_Black({
+const archivo_black = Archivo_Black({
   subsets: ["latin"],
   variable: "--font-archivo_black",
   weight: "400",
@@ -28,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${archivo.variable} ${archivoBlack.variable}`}>
-        {children}
-      </body>
+      <body className={`${archivo.variable} font-archivo`}>{children}</body>
     </html>
   );
 }

@@ -1,49 +1,91 @@
 [
   {
-    "image": "workshop",
-    "title": "Workshop Booking Application",
-    "keyword": "Fullstack",
+    "imageStatic": "workshop",
+    "imageDekstop": "",
+    "imageMobile": "",
+    "title": "#1 Workshop Booking System",
+    "technology": {
+      "icon1": "react",
+      "icon2": "express",
+      "icon3": "mongodb"
+    },
     "keywords": "MERN stack, booking-system, authentification, authorization, API, teamwork",
+    "intro": ".",
     "description": "This project is an exam project in the course Webproject at NTNU Gjøvik. In this project we got a fictitious customer who wanted a booking application for the workshop at the school. This is a project that has been worked on throughout the semester, and during this time, we have had 3 meetings with the product owner about the product. The project has had a strong focus on group work, planning, and execution from start to end. We have been a team of four people, where each has different roles. This project is deplyed on Netlify and Railway. Please check it out! ",
     "link": "https://github.com/ingring/IDG2671-gruppe2"
   },
   {
-    "image": "tabletennisleague",
-    "title": "Table Tennis League",
-    "keyword": "Fullstack",
+    "imageStatic": "",
+    "imageDekstop": "",
+    "imageMobile": "",
+    "title": "Table Tennis League App",
+    "technology": {
+      "icon1": "react",
+      "icon2": "express",
+      "icon4": "javascript"
+    },
     "keywords": "Web Component, MERN stack, authentification, authorization, API",
+    "intro": ".",
     "description": "We got the task to develop a Table Tennis League App for the school, where students can keep track of their- and others score. It contains a leaderboard with the current stats of the league, a players page to keep track of all players, a match page to keep track of the matches, and a profile page to see your stats. This projects has three roles, anonymous, player, and admin, and you get different access depending on the logged in state. In this app you get a Web Component where you can keep track of the sets in your match, and then saves the final results.",
     "link": "https://github.com/ntnu-design/idg2100-2023-oblig3-lisa_anosh"
   },
   {
-    "image": "accessibility",
-    "title": "Climbing Magazine",
-    "keyword": "Accessibility",
+    "imageStatic": "",
+    "imageDekstop": "",
+    "imageMobile": "",
+    "title": "Accessible Climbing Magazine Website",
+    "technology": {
+      "icon1": "html5",
+      "icon2": "css3",
+      "icon3": "javascript"
+    },
     "keywords": "Accessibilty, User needs, Screen reader, Persona, WCAG 2.1, Aria labels",
+    "intro": ".",
     "description": "Nowadays, digitalization makes it easier for our daily life in many aspects. We need more digital systems which are both usable and accessible for people with disabilities. In the course Web Accessibility, Usability and Ethics at NTNU Gjøvik I have created a website that are accessible for blind and deaf people. In this project I learned how to fully develop a website that have universal and inclusive design, follows the web accessebility guidelines (WCAG, ATAC, UAAG), including assisitive technologies and adaptive strategies. The theme for my website were a climbing magazine, please check it out!",
     "link": "https://github.com/lisamarimyrene/IDG2012_ExamProject"
   },
   {
-    "image": "ecommerce",
-    "title": "E-Commerce PHP",
-    "keyword": "Backend",
+    "imageStatic": "",
+    "imageDekstop": "",
+    "imageMobile": "",
+    "title": "E-commerce",
+    "technology": {
+      "icon1": "php",
+      "icon2": "mongodb",
+      "icon3": "css3"
+    },
     "keywords": "PHP, MongoDB, authorization",
+    "intro": ".",
     "description": "This project is developed in the Backend course at NTNU Gjøvik. For our last and largest assignment, we got to develop a basic e-commerce platform which allows potential customers to view and buy products listed. This website has different pages sunch as login / new user-, admin-, user-, product-, and shoppingcart page. The admin can add new items to the commerce, and users can 'buy' from the page.",
     "link": "https://github.com/lisamarimyrene/IDG2003_e-commerce"
   },
   {
-    "image": "vcardparser",
-    "title": "vCard Parser Python",
-    "keyword": "Python",
+    "imageStatic": "",
+    "imageDekstop": "",
+    "imageMobile": "",
+    "title": "VCard Parser",
+    "technology": {
+      "icon1": "python",
+      "icon2": "mongodb",
+      "icon3": "railway"
+    },
     "keywords": "Python, Flask API, Cache, Railway, Render",
+    "intro": ".",
     "description": "For our exam project in Cloud Technologies at NTNU Gjøvik, we got to create a vCard parser in Python. This application is hosted on three different subsystems. The Frontend and Backend on Railway, and the Cache on Render. The idea is to upload a vcard file in frontend, parse it to json, send the json file to the cache, then the cache sends it further to the backend. The user are also able to download all json files from the backend database, but in vcard format. Therefore, when the user click on the 'download' button, the cache get the json file from the backend, parses it back to vcard, and then sends it to the frontend. This project uses Flask API for the backend and cache.",
     "link": "https://github.com/anoshc/IDG2001-assignment1"
   },
   {
-    "image": "scrollytelling",
-    "title": "Scrollytelling",
-    "keyword": "Advanced CSS",
+    "imageStatic": "",
+    "imageDekstop": "",
+    "imageMobile": "",
+    "title": "Sustainability Scrollytelling",
+    "technology": {
+      "icon1": "html5",
+      "icon2": "sass",
+      "icon3": "javascript"
+    },
     "keywords": "SCSS, Advanced CSS, Scrollytelling, BEM, Intersection Observer",
+    "intro": ".",
     "description": "In my course Advanced CSS, I got the create a Scollytelling for my last assignment. This project are created by me and a fellow student, where we developed a scrollytelling that visualize the different seasons, summer, autumn, winter and spring. When you scoll you'll see the scenery change depending on the season. This scrollytelling is developed in HTML and SCSS, where the different seasons are triggered by an Intersection Observer.",
     "link": "https://fadumon.github.io/-Assignment-2/"
   }
