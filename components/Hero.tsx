@@ -9,7 +9,7 @@ export function Hero() {
       </h2>
       <p className="text-lg">
         I am dedicated in developing and prototyping modern and robust web
-        solutions.{" "}
+        solutions.
       </p>
       <div className="mt-12 w-full md:w-[350px] h-[180px] flex flex-col md:flex-row md:justify-between">
         <Button

@@ -10,13 +10,13 @@ const buttonVariants = cva(
     variants: {
       variant: {
         orange:
-          "bg-orange text-purple-dark hover:bg-purple-dark hover:text-orange hover:stroke-inherit hover:stroke-1 hover:stroke-[#FFA289]",
+          "bg-orange text-purple-dark hover:bg-purple-dark hover:text-orange border-transparent hover:border hover:border-2 hover:border-[#FFA289]",
         white:
-          "bg-purple-light text-purple-dark hover:bg-purple-dark hover:text-purple-light hover:stroke-inherit hover:stroke-1 hover:stroke-[#F7F3FF]",
+          "bg-purple-light text-purple-dark hover:bg-purple-dark hover:text-purple-light border-transparent hover:border hover:border-2 hover:border-[#362B4F]",
         whiteStroke:
-          "stroke-1 stroke-[#FFA289] hover:bg-purple-light hover:stroke-0 hover:text-purple-dark",
+          "border border-2 border-[#F7F3FF] hover:border-transparent hover:bg-purple-light hover:text-purple-dark",
         purpleStroke:
-          "stroke-1 stroke-[#F7F3FF] hover:bg-purple-light hover:stroke-0 hover:text-purple-dark",
+          "border border-2 border-[#362B4F] hover:border-transparent hover:bg-purple-light hover:text-purple-dark",
       },
       size: {
         default: "text-base",

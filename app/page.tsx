@@ -1,5 +1,4 @@
-"use client";
-import { NavbarDesktop } from "../components/NavbarDesktop";
+import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectSection } from "../components/ProjectSection";
@@ -7,7 +6,7 @@ import { ProjectSection } from "../components/ProjectSection";
 export default function Home() {
   return (
     <>
-      <NavbarDesktop />
+      <Navbar />
       <Hero />
       <SkillsSection />
       <ProjectSection />

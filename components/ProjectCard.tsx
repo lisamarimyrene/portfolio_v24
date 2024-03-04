@@ -4,6 +4,7 @@ import arrowRight from "../public/arrowRight.svg";
 import { FC } from "react";
 
 interface ProjectCardProps {
+  url: string;
   image: string;
   icons: string[];
   title: string;
@@ -11,6 +12,7 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard: FC<ProjectCardProps> = ({
+  url,
   image,
   icons,
   title,
@@ -23,7 +25,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           {icons.map((icon, index) => (
             <Image
               key={index}
-              className="h-9 w-9 p-1 bg-purple-light rounded-md mr-2"
+              className="h-9 w-9 p-1 bg-purple-light rounded-md mr-[6px]"
               src={`/technologyIcons/${icon}.png`}
               alt="Technology icon"
               height={128}
@@ -31,22 +33,23 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             ></Image>
           ))}
         </div>
-        <Link href="/project">
+        <Link href={`/${url}`}>
           <Image
+            priority
             className="aspect-video rounded-t-md"
-            src={`/projectImages/${image}.jpg`}
+            src={`/projectImages/${url}/${image}.jpg`}
             alt="Project image"
-            height={200}
-            width={500}
+            height={250}
+            width={400}
           ></Image>
         </Link>
       </div>
 
-      <div className="bg-purple-dark text-purple-light p-3 rounded-b-md">
-        <Link href="/project">
-          <div className="flex mb-2">
-            <h3 className="mr-4">{title}</h3>
-            <button>
+      <div className="bg-purple-dark text-purple-light px-4 py-5 rounded-b-md">
+        <Link href={`/${url}`}>
+          <h3 className="mb-2">
+            {title}{" "}
+            <button className="ml-2">
               <Image
                 priority
                 src={arrowRight}
@@ -55,7 +58,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
                 width={15}
               ></Image>
             </button>
-          </div>
+          </h3>
         </Link>
         <p>{intro}</p>
       </div>

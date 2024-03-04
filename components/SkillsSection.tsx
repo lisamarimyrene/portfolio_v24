@@ -10,8 +10,9 @@ interface SkillsDataType {
 export const SkillsSection: FC<SkillsDataType> = () => {
   return (
     <div className="bg-purple-medium w-full h-auto pb-28 pt-16  z-1 rounded-t-3xl absolute mt-[-25px]">
-      {skillsData.map((skillsRow, index) => (
+      {skillsData.map((skillsRow, rowIndex) => (
         <Marquee
+          key={`marquee-${rowIndex}`}
           speed={20}
           pauseOnHover={true}
           pauseOnClick={true}
@@ -19,48 +20,61 @@ export const SkillsSection: FC<SkillsDataType> = () => {
           gradientColor="233, 228, 239"
           gradientWidth={100}
         >
-          <div key={index} className="flex pb-4">
-            {skillsRow.skillsRow1?.map((filename) => (
+          <div key={`row-${rowIndex}`} className="flex pb-2">
+            {skillsRow.skillsRow1?.map((filename, iconIndex) => (
               <div
-                key={filename}
+                key={`icon-${rowIndex}-${iconIndex}`}
                 className="px-4 flex flex-col items-center text-purple-medium hover:text-purple-dark"
               >
                 <Image
+                  key={`image-${rowIndex}-${iconIndex}`}
                   src={`/technologyIcons/${filename}.png`}
                   alt={`${filename} Icon`}
                   width={45}
                   height={45}
                 />
-                <p className="pt-1 text-sm">{filename}</p>
+                <p
+                  key={`text-${rowIndex}-${iconIndex}`}
+                  className="pt-1 text-sm"
+                >
+                  {filename}
+                </p>
               </div>
             ))}
           </div>
         </Marquee>
       ))}
 
-      {skillsData.map((skillsRow, index) => (
+      {skillsData.map((skillsRow, rowIndex) => (
         <Marquee
-          direction="right"
+          key={`marquee-${rowIndex}`}
           speed={20}
+          direction="right"
           pauseOnHover={true}
           pauseOnClick={true}
           gradient={true}
           gradientColor="233, 228, 239"
           gradientWidth={100}
         >
-          <div key={index} className="flex">
-            {skillsRow.skillsRow2?.map((filename) => (
+          <div key={`row-${rowIndex}`} className="flex pb-4">
+            {skillsRow.skillsRow2?.map((filename, iconIndex) => (
               <div
-                key={filename}
+                key={`icon-${rowIndex}-${iconIndex}`}
                 className="px-4 flex flex-col items-center text-purple-medium hover:text-purple-dark"
               >
                 <Image
+                  key={`image-${rowIndex}-${iconIndex}`}
                   src={`/technologyIcons/${filename}.png`}
                   alt={`${filename} Icon`}
                   width={45}
                   height={45}
                 />
-                <p className="pt-1 text-sm">{filename}</p>
+                <p
+                  key={`text-${rowIndex}-${iconIndex}`}
+                  className="pt-1 text-sm"
+                >
+                  {filename}
+                </p>
               </div>
             ))}
           </div>
