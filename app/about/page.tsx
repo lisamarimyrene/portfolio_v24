@@ -35,7 +35,7 @@ export default function About() {
 
           <div className="md:max-w-[70%] lg:max-w-[50%] md:mr-20">
             <p className="mb-6 text-base">Hello! My name is Lisa Mari and I am currently completing a bachelor&apos;s degree in Web Development at NTNU Gjøvik, as my interest in technology and design has always been a great motivation. After completing my studies, I will leave with competence in modern full-stack web technologies, user-centred methods and design.</p>
-            <p className="text-base mb-16 md:mb-16">What inspires me to pursue a career in development is the joy of creating meaningful digital experiences with a focus on accessibility and usability. I believe that working creatively and systematically with people is the key to developing innovative concepts for the web. I look forward to acquiring more knowledge and experience in working life after finishing my studies!</p>
+            <p className="text-base mb-10 md:mb-16">What inspires me to pursue a career in development is the joy of creating meaningful digital experiences with a focus on accessibility and usability. I believe that working creatively and systematically with people is the key to developing innovative concepts for the web. I look forward to acquiring more knowledge and experience in working life after finishing my studies!</p>
           </div>
             
           <div className="w-full h-fit pt-6 pb-4 md:pb-8 bg-purple-dark rounded-xl px-6 text-purple-light">
@@ -61,9 +61,8 @@ export default function About() {
         </div>
       </div>
 
-      <div className="px-6 md:px-20 bg-purple-deep w-full pt-16 md:pt-20 z-1 absolute b-0 rounded-t-3xl mt-[860px] md:mt-[370px]">
-        
-        <div className="w-full flex justify-center pb-20">
+      <div className="px-6 md:px-20 bg-purple-deep w-full pt-16 md:pt-20 z-1 absolute pb-20 rounded-t-3xl mt-[830px] md:mt-[370px]">
+        <div className="w-full flex justify-center pb-14 md:pb-0">
           <Image
                 src={Timeline}
                 alt="Picture of BWU Timeline"
