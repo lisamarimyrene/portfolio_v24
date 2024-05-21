@@ -54,20 +54,20 @@ const Project: FC<ProjectProps> = ({ params }) => {
         </div>
       </section>
 
-      <section className="bg-purple-medium w-full h-auto pb-28 pt-16 z-1 rounded-t-3xl absolute mt-[-25px]">
+      <section className="bg-purple-medium w-full h-auto pb-30 pt-16 z-1 rounded-t-3xl absolute mt-[-25px]">
         <div className="px-6 md:px-[200px] lg:px-[400px] md:flex md:flex-col">
-          <div className="mb-6">
+          <div className="mb-12">
             <Image
               className=""
               src={`/projectImages/${url}/${image}.jpg`}
-              alt="Project gif image mobile"
+              alt="Project image"
               height={600}
               width={700}
             ></Image>
           </div>
 
           <p className="mb-6 text-base">{description1}</p>
-          <p className="mb-10 text-base">{description2}</p>
+          <p className="mb-10 md:mb-14 text-base">{description2}</p>
 
           <Button
             href={link}
