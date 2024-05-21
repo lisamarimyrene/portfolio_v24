@@ -5,18 +5,20 @@ import { FC } from "react";
 import Link from "next/link";
 
 const buttonVariants = cva(
-  "rounded-full w-full md:w-auto px-6 py-4 md:py-2 mb-4 md:mb-0",
+  "rounded-full w-full md:w-auto w-full md:w-[200px] h-12 md:h-11 mb-4 md:mb-0 font-medium",
   {
     variants: {
       variant: {
         orange:
-          "bg-orange text-purple-dark hover:bg-purple-dark hover:text-orange border-transparent hover:border hover:border-2 hover:border-[#FFA289]",
+          "bg-orange text-purple-dark hover:bg-purple-dark hover:text-orange border-transparent hover:border hover:border-2 hover:border-[#FFA289] transition duration-200",
+        orange2:
+        "bg-orange text-purple-dark hover:bg-purple-medium hover:text-purple-dark border-transparent hover:border hover:border-2 hover:border-[#362B4F] transition duration-200",
         white:
-          "bg-purple-light text-purple-dark hover:bg-purple-dark hover:text-purple-light border-transparent hover:border hover:border-2 hover:border-[#362B4F]",
+          "bg-purple-light text-purple-dark hover:bg-purple-dark hover:text-purple-light border-transparent hover:border hover:border-2 hover:border-[#362B4F] transition duration-200",
         whiteStroke:
-          "border border-2 border-[#F7F3FF] hover:border-transparent hover:bg-purple-light hover:text-purple-dark",
+          "border border-2 border-[#F7F3FF] hover:border-transparent hover:bg-purple-light hover:text-purple-dark transition duration-200",
         purpleStroke:
-          "border border-2 border-[#362B4F] hover:border-transparent hover:bg-purple-light hover:text-purple-dark",
+          "border border-2 border-[#362B4F] hover:border-transparent hover:bg-purple-light hover:text-purple-dark transition duration-200",
       },
       size: {
         default: "text-base",

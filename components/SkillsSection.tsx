@@ -9,7 +9,8 @@ interface SkillsDataType {
 
 export const SkillsSection: FC<SkillsDataType> = () => {
   return (
-    <div className="bg-purple-medium w-full h-auto pb-28 pt-16  z-1 rounded-t-3xl absolute mt-[-25px]">
+    <div className="bg-purple-medium w-full h-auto pb-28 pt-16 z-1 rounded-t-3xl absolute mt-[-25px] flex flex-col items-center">
+      <div className=" w-full md:w-[70%]">
       {skillsData.map((skillsRow, rowIndex) => (
         <Marquee
           key={`marquee-${rowIndex}`}
@@ -80,6 +81,7 @@ export const SkillsSection: FC<SkillsDataType> = () => {
           </div>
         </Marquee>
       ))}
+      </div>
     </div>
   );
 };

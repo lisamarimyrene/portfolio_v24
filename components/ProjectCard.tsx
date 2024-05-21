@@ -20,12 +20,12 @@ export const ProjectCard: FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className="px-6 mb-8">
-      <div>
-        <div className="flex absolute mt-2 ml-2">
+      <div className="">
+        <div className="flex absolute mt-2 ml-2 bg-purple-light p-1 rounded-lg gap-1">
           {icons.map((icon, index) => (
             <Image
               key={index}
-              className="h-9 w-9 p-1 bg-purple-light rounded-md mr-[6px]"
+              className="h-9 w-9 p-1 rounded-md"
               src={`/technologyIcons/${icon}.png`}
               alt="Technology icon"
               height={128}
@@ -45,9 +45,9 @@ export const ProjectCard: FC<ProjectCardProps> = ({
         </Link>
       </div>
 
-      <div className="bg-purple-dark text-purple-light px-4 py-5 rounded-b-md">
+      <div className="bg-purple-dark text-purple-light px-4 py-5 rounded-b-md max-w-[400px]">
         <Link href={`/${url}`}>
-          <h3 className="mb-2">
+          <h3 className="mb-2 text-lg">
             {title}{" "}
             <button className="ml-2">
               <Image
@@ -60,7 +60,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             </button>
           </h3>
         </Link>
-        <p>{intro}</p>
+        <p className="text-base">{intro}</p>
       </div>
     </div>
   );

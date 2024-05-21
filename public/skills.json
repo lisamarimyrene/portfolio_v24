@@ -7,12 +7,13 @@
       "react",
       "express",
       "nodejs",
-      "python",
+      "supabase",
       "php",
       "nextjs",
       "mongodb",
       "javascript",
-      "mysql"
+      "mysql",
+      "vercel"
     ]
   },
   {
@@ -27,7 +28,8 @@
       "swagger",
       "storybook",
       "tailwindcss",
-      "sass"
+      "sass",
+      "expo"
     ]
   }
 ]

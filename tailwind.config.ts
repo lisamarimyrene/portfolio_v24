@@ -10,6 +10,7 @@ const config: Config = {
       colors: {
         purple: {
           dark: "#362B4F",
+          deep: "#544A6A",
           medium: "#E9E4EF",
           light: "#F7F3FF",
         },

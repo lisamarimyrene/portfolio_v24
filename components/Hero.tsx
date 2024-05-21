@@ -11,7 +11,7 @@ export function Hero() {
         I am dedicated in developing and prototyping modern and robust web
         solutions.
       </p>
-      <div className="mt-12 w-full md:w-[350px] h-[180px] flex flex-col md:flex-row md:justify-between">
+      <div className="mt-12 w-full md:w-[415px] h-[180px] flex flex-col md:flex-row md:justify-between">
         <Button
           href="/about"
           variant="orange"
@@ -19,7 +19,7 @@ export function Hero() {
           text="Get to know me"
         />
         <Button
-          href="linkedIn"
+          href="https://www.linkedin.com/in/lisamarimyrene/"
           variant="whiteStroke"
           size="default"
           text="Connect with me"
