@@ -1,6 +1,7 @@
 import { Navbar } from "../../components/Navbar";
 import Image from "next/image";
 import LisaMariMyrene from "../../public/LisaMariMyrene.png"
+import Timeline from "../../public/timeline.png"
 import { Button } from "../../components/Button";
 
 export default function About() {
@@ -29,8 +30,8 @@ export default function About() {
       </section>
 
 
-      <div className="px-6 md:px-20 bg-purple-medium w-full h-auto pb-20 md:pb-[100px] pt-16 md:pt-20 z-1 absolute rounded-t-3xl mt-[-26px]">
-        <div className="flex flex-col lg:flex-row w-full items-top">
+      <div className="px-6 md:px-20 bg-purple-medium w-full pt-16 md:pt-20 z-1 absolute b-0 rounded-t-3xl mt-[-26px]">
+        <div className="flex flex-col lg:flex-row w-full items-top pb-20">
 
           <div className="md:max-w-[70%] lg:max-w-[50%] md:mr-20">
             <p className="mb-6 text-base">Hello! My name is Lisa Mari and I am currently completing a bachelor&apos;s degree in Web Development at NTNU Gjøvik, as my interest in technology and design has always been a great motivation. After completing my studies, I will leave with competence in modern full-stack web technologies, user-centred methods and design.</p>
@@ -57,6 +58,18 @@ export default function About() {
             </div>
           </div>
             
+        </div>
+      </div>
+
+      <div className="px-6 md:px-20 bg-purple-deep w-full pt-16 md:pt-20 z-1 absolute b-0 rounded-t-3xl mt-[860px] md:mt-[370px]">
+        
+        <div className="w-full flex justify-center pb-20">
+          <Image
+                src={Timeline}
+                alt="Picture of BWU Timeline"
+                height={300}
+                width={1000}
+            />
         </div>
       </div>
     </>
