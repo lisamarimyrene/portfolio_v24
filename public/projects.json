@@ -1,8 +1,7 @@
 [
   {
     "url": "Bruktglede",
-    "imageDesktop": "bruktgledeDesktop",
-    "imageMobile": "bruktgledeMobile",
+    "image": "bruktgledeImg",
     "title": "Bruktglede",
     "technology": {
       "icon1": "nextjs",
@@ -10,15 +9,14 @@
       "icon3": "vercel"
     },
     "keywords": "Bachelor project, Second-hand stores, SEO, PostgreSQL, Prototyping, User testing",
-    "intro": ".",
+    "intro": "Our bachelor's project developed a unified digital platform for Gjøvik's second-hand shops, focusing on user-driven content management, SEO, universal design, and sustainability.",
     "description1": "Our bachelor's thesis, in collaboration with Gjøvik municipality, aimed to develop a unified digital platform for the second-hand shops in Gjøvik due to limited information about the shops online. The website has been developed based on insights from the second-hand stores themselves, where the system allows them to publish content, such as store information, news updates, events, an overview of drop-off stations and highlights of the week through a self-built CMS. This provides updated information from the second-hand shops, which can help increase engagement among students and other residents of Gjøvik.",
     "description2": "We placed particular emphasis on search engine optimization to make the website searchable, as well as universal design and the UN's sustainability goals. I learned a lot of the whole process from insights from users, to creating digital prototypes with user testing, developing and deploying. This project utilises Next.js as a fullstack framework, Tailwind as the CSS framework, Supbase as database and are hosted on Vercel.",
     "link": "/"
   },
   {
     "url": "WorkshopBookingSystem",
-    "imageDesktop": "workshopDesktop",
-    "imageMobile": "workshopMobile",
+    "image": "workshopImg",
     "title": "Workshop Booking System",
     "technology": {
       "icon1": "react",
@@ -33,8 +31,7 @@
   },
   {
     "url": "TableTennisLeagueApp",
-    "imageDesktop": "tabletennisDesktop",
-    "imageMobile": "tabletennisMobile",
+    "image": "tabletennisImg",
     "title": "Table Tennis League App",
     "technology": {
       "icon1": "react",
@@ -42,15 +39,14 @@
       "icon4": "javascript"
     },
     "keywords": "Web Components, MERN stack, authentification, authorization, REST API, teamwork",
-    "intro": ".",
+    "intro": "Developed a Table Tennis League App for NTNU in Gjøvik to efficiently register players, track results, and provide features like leaderboards and game history.",
     "description1": "In this group project, we developed a digital booking system for the workshop at NTNU Gjøvik. The whole subject was aimed at the development of the project, which gave us time to transform a project idea into a minimal viable product (MVP), where we collaborated with a fictitious project owner to identify requirements, establish design systems, and develop a working web application. ",
     "description2": "The project gave us a great insight and learning curve in full stack web technologies (MERN stack), in addition to hosting and CSS frameworks. This was really an exciting project where we got to try our hand at developing a booking system with user roles, login system and administrative functions.",
     "link": "https://github.com/ntnu-design/idg2100-2023-oblig3-lisa_anosh"
   },
   {
     "url": "AccessibleClimbingWebsite",
-    "imageDesktop": "accessibleDesktop",
-    "imageMobile": "accessibleMobile",
+    "image": "accessibleImg",
     "title": "Accessible Climbing Magazine Website",
     "technology": {
       "icon1": "html5",
@@ -58,15 +54,14 @@
       "icon3": "javascript"
     },
     "keywords": "Accessibilty, User needs, Screen reader, Persona, WCAG 2.1, Aria labels",
-    "intro": ".",
+    "intro": "I developed an accessible climbing-themed website that focused on WCAG guidelines, implementing screen reader support, media playback tools, and ARIA attributes. Gained valuable experience in web accessibility and human-machine interaction.",
     "description1": "In this group project, we developed a digital booking system for the workshop at NTNU Gjøvik. The whole subject was aimed at the development of the project, which gave us time to transform a project idea into a minimal viable product (MVP), where we collaborated with a fictitious project owner to identify requirements, establish design systems, and develop a working web application. ",
     "description2": "The project gave us a great insight and learning curve in full stack web technologies (MERN stack), in addition to hosting and CSS frameworks. This was really an exciting project where we got to try our hand at developing a booking system with user roles, login system and administrative functions.",
     "link": "https://github.com/lisamarimyrene/IDG2012_ExamProject"
   },
   {
     "url": "NoteApp",
-    "imageDesktop": "noteappDesktop",
-    "imageMobile": "noteappMobile",
+    "image": "noteappImg",
     "title": "Note App",
     "technology": {
       "icon1": "react",
@@ -74,15 +69,14 @@
       "icon3": "css3"
     },
     "keywords": "Mobile app development, React Native, Local Storage, Permission systems, Expo",
-    "intro": ".",
+    "intro": "During my exchange at CODE University, I developed a React Native and Expo note app focused on mobile sensors and functionalities, learning about cross-platform coding and general app development.",
     "description1": "During my exchange semester at CODE University in Berlin, I developed a note app in React Native and Expo. The task was to develop an app for mobile devices with a focus on sensors and built-in mobile functionalities such as camera and local storage.",
     "description2": "The app is built around permission systems, for example to grant access to the device photo library and camera. This was a simple but fun task to develop, where I learned a lot about how to code for cross platforms in Expo, and how general app development works.",
     "link": "/"
   },
   {
     "url": "Scrollytelling",
-    "imageDesktop": "scrollytellingDesktop",
-    "imageMobile": "scrollytellingMobile",
+    "image": "scrollytellingImg",
     "title": "Scrollytelling",
     "technology": {
       "icon1": "html5",
@@ -90,9 +84,9 @@
       "icon3": "javascript"
     },
     "keywords": "SCSS, Advanced CSS, Scrollytelling, BEM, Intersection Observer",
-    "intro": ".",
-    "description1": "In this group project, we developed a digital booking system for the workshop at NTNU Gjøvik. The whole subject was aimed at the development of the project, which gave us time to transform a project idea into a minimal viable product (MVP), where we collaborated with a fictitious project owner to identify requirements, establish design systems, and develop a working web application. ",
-    "description2": "The project gave us a great insight and learning curve in full stack web technologies (MERN stack), in addition to hosting and CSS frameworks. This was really an exciting project where we got to try our hand at developing a booking system with user roles, login system and administrative functions.",
+    "intro": "Scrollytelling project centered on the UN's Sustainability Goal 13, utilizing HTML, SASS, and JS with Intersection Observer for animations.",
+    "description1": "In the subject Advanced CSS, me and two others created a Scrollytelling focusing on the FNs Sustainability Goal 13: Take urgent action to combat climate change and its impacts. The Scrollytelling is built on HTML, SASS and JS, using intersection observer for creating the animations.",
+    "description2": "This project gave me valuable skills in developing a story from start to end, creating SVG for the layout, and setting target points for the animation frames.",
     "link": "https://fadumon.github.io/-Assignment-2/"
   }
 ]

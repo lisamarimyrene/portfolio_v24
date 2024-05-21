@@ -9,7 +9,7 @@ export function ProjectSection() {
           <ProjectCard
             key={index}
             url={project.url}
-            image={project.imageDesktop}
+            image={project.image}
             icons={Object.values(project.technology)}
             title={project.title}
             intro={project.intro}

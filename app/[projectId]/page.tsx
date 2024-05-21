@@ -20,8 +20,7 @@ const Project: FC<ProjectProps> = ({ params }) => {
 
   const {
     url,
-    imageDesktop,
-    imageMobile,
+    image,
     title,
     keywords,
     description1,
@@ -60,17 +59,10 @@ const Project: FC<ProjectProps> = ({ params }) => {
           <div className="mb-6">
             <Image
               className=""
-              src={`/projectImages/${url}/${imageDesktop}.jpg`}
+              src={`/projectImages/${url}/${image}.jpg`}
               alt="Project gif image mobile"
               height={600}
               width={700}
-            ></Image>
-            <Image
-              className=""
-              src={`/projectImages/${url}/${imageMobile}.jpg`}
-              alt="Project gif image mobile"
-              height={128}
-              width={128}
             ></Image>
           </div>
 

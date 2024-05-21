@@ -10,7 +10,7 @@ export default function About() {
       <section className="pt-10 md:pt-14 pb-20 md:pb-28 px-6 md:px-20 bg-purple-dark text-purple-light flex flex-col md:flex-row justify-between items-center">
         <div className="w-fit">
           <h1 className="leading-[100%] md:w-[50%] sm:text-[3rem] lg:text-[4rem]">Hi, I&apos;m Lisa!</h1>
-          <h1 className="text-orange mb-4 md:w-fit sm:text-[3.5rem] lg:text-[4.5rem]">A Fullstack Developer</h1>
+          <h1 className="text-orange mb-4 md:w-fit sm:text-[3.5rem] lg:text-[4.5rem]">Fullstack Developer</h1>
           <h3 className="w-full md:w-[50%] md:text-xl">
             I approach my work with creativity and structured methodology,
             focusing on developing innovative web concepts using user-centered
