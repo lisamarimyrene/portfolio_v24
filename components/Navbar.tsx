@@ -60,9 +60,9 @@ export const Navbar = () => {
               About
             </Link>
             <div className="flex gap-7">
-            <a href="/"><FiLinkedin style={iconStyleMobile}/></a>
-            <a href="/"><FiMail style={iconStyleMobile}/></a>
-            <a href="/"><FiGithub style={iconStyleMobile} /></a>
+            <a href="https://www.linkedin.com/in/lisamarimyrene/"><FiLinkedin style={iconStyleMobile}/></a>
+            <a href="mailto:lisammyrene@outlook.com"><FiMail style={iconStyleMobile}/></a>
+            <a href="https://github.com/lisamarimyrene"><FiGithub style={iconStyleMobile} /></a>
             </div>
           </div>
         </div>
