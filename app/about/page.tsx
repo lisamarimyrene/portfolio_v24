@@ -30,8 +30,8 @@ export default function About() {
       </section>
 
 
-      <div className="px-6 md:px-20 bg-purple-medium w-full min-h-screen pt-16 md:pt-20 z-1 absolute b-0 rounded-t-3xl mt-[-26px]">
-        <div className="flex flex-col lg:flex-row w-full items-top pb-20">
+      <div className="px-6 md:px-20 bg-purple-medium w-full  pt-16 md:pt-20 z-1 absolute b-0 rounded-t-3xl mt-[-26px]">
+        <div className="flex flex-col lg:flex-row w-full items-top pb-16">
 
           <div className="md:max-w-[70%] lg:max-w-[50%] md:mr-20">
             <p className="mb-6 text-base">Hello! My name is Lisa Mari and I am currently completing a bachelor&apos;s degree in Web Development at NTNU Gjøvik, as my interest in technology and design has always been a great motivation. After completing my studies, I will leave with competence in modern full-stack web technologies, user-centred methods and design.</p>
@@ -61,7 +61,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="px-6 md:px-20 bg-purple-dark w-full pt-16 md:pt-20 z-1 absolute pb-8 md:pb-28 rounded-t-3xl mt-[870px] md:mt-[370px]">
+      {/* <div className="px-6 md:px-20 bg-purple-dark w-full pt-16 md:pt-32 z-1 pb-0 md:pb-28 flex justify-center items-center h-[450px] md:h-[600px] mt-[745px] md:mt-[770px] lg:mt-[370px]">
         <div className="w-full flex justify-center pb-14 md:pb-0">
           <Image
                 src={Timeline}
@@ -70,7 +70,7 @@ export default function About() {
                 width={1000}
             />
         </div>
-      </div>
+      </div> */}
       {/* <footer className="absolute flex flex-col justify-center items-center bg-orange h-40 w-full z-20 mt-[1130px] md:mt-[930px] rounded-t-xl">
             <p className="text-sm mb-4 text-purple-dark">
                 Lisa Mari Myrene – Portfolio BWU 2024
