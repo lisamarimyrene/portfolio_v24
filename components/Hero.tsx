@@ -3,8 +3,8 @@ import { Button } from "./Button";
 export function Hero() {
   return (
     <div className="bg-purple-dark h-auto text-purple-light px-6 md:px-20 py-3 pt-8 md:py-16 md:pb-2">
-      <h1 className="md:leading-[130%]">Lisa Mari Myrene</h1>
-      <h2 className="md:leading-[90%] md:mb-8 mb-6 text-orange">
+      <h1 className="md:leading-[130%] text-4xl lg:text-8xl">Lisa Mari Myrene</h1>
+      <h2 className="md:leading-[90%] md:mb-8 mb-6 text-orange text-xl lg:text-4xl">
         Code, design & user-experience
       </h2>
       <p className="text-lg">

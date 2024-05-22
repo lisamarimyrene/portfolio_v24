@@ -45,7 +45,7 @@ export const Navbar = () => {
             : "z-10 fixed left-[100%] w-full h-screen top-0 ease-in px-6 py-4 duration-500"
         }
       >
-        <div className="flex flex-col w-full items-end pt-4.5 ">
+        <div className="flex flex-col w-full items-end pt-5 ">
           <button
             onClick={handleNav}
             className="text-purple-dark bg-purple-light rounded-full w-auto px-4 py-2 border-transparent hover:border hover:border-[#F7F3FF] hover:text-purple-light hover:bg-purple-dark"

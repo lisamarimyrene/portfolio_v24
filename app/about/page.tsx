@@ -10,9 +10,9 @@ export default function About() {
       <Navbar />
       <section className="pt-10 md:pt-14 pb-20 md:pb-28 px-6 md:px-20 bg-purple-dark text-purple-light flex flex-col md:flex-row justify-between items-center">
         <div className="w-fit">
-          <h1 className="leading-[100%] md:w-[50%] sm:text-[3rem] lg:text-[4rem]">Hi, I&apos;m Lisa!</h1>
-          <h1 className="text-orange mb-4 md:w-fit sm:text-[3.5rem] lg:text-[4.5rem]">Fullstack Developer</h1>
-          <h3 className="w-full md:w-[50%] md:text-xl">
+          <h1 className="leading-[100%] md:w-[60%] text-5xl lg:text-7xl mb-2">Hi, I&apos;m Lisa!</h1>
+          <h1 className="text-orange mb-4 md:w-fit text-3xl lg:text-5xl">Fullstack Developer</h1>
+          <h3 className="w-full md:w-[70%] md:text-lg">
             I approach my work with creativity and structured methodology,
             focusing on developing innovative web concepts using user-centered
             methods.
@@ -61,7 +61,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="px-6 md:px-20 bg-purple-dark w-full pt-16 md:pt-20 z-1 absolute pb-20 md:pb-48 rounded-t-3xl mt-[830px] md:mt-[370px]">
+      <div className="px-6 md:px-20 bg-purple-dark w-full pt-16 md:pt-20 z-1 absolute pb-8 md:pb-28 rounded-t-3xl mt-[870px] md:mt-[370px]">
         <div className="w-full flex justify-center pb-14 md:pb-0">
           <Image
                 src={Timeline}
@@ -71,14 +71,14 @@ export default function About() {
             />
         </div>
       </div>
-      <footer className="absolute flex flex-col justify-center items-center bg-orange h-40 w-full z-20 mt-[1130px] md:mt-[990px] rounded-t-xl">
+      {/* <footer className="absolute flex flex-col justify-center items-center bg-orange h-40 w-full z-20 mt-[1130px] md:mt-[930px] rounded-t-xl">
             <p className="text-sm mb-4 text-purple-dark">
                 Lisa Mari Myrene – Portfolio BWU 2024
             </p>
             <p className="text-sm text-purple-dark">
                 Created in Next.js with Tailwind CSS and hosted on Vercel
             </p>
-        </footer>
+        </footer> */}
     </>
   );
 }

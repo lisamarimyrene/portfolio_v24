@@ -90,14 +90,14 @@ const Project: FC<ProjectProps> = ({ params }) => {
 
         </div>
       </section>
-      <footer className="absolute flex flex-col justify-center items-center bg-purple-dark h-40 w-full z-20 mt-[820px] md:mt-[940px] rounded-t-3xl">
+      {/* <footer className="absolute flex flex-col justify-center items-center bg-purple-dark h-40 w-full z-20 mt-[900px] md:mt-[900px] rounded-t-3xl">
             <p className="text-sm mb-4 text-purple-light">
                 Lisa Mari Myrene – Portfolio BWU 2024
             </p>
             <p className="text-sm text-purple-light">
                 Created in Next.js with Tailwind CSS and hosted on Vercel
             </p>
-        </footer>
+        </footer> */}
     </>
   );
 };

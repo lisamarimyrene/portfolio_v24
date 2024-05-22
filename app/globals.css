@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
+/* h1 {
     font-size: 7rem;
 }
 
@@ -34,4 +34,4 @@ p {
     p {
         font-size: 16px;
     }
-}
+} */
