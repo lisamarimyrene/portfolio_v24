@@ -28,7 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${archivo.variable} font-archivo`}>{children}</body>
+      <body className={`${archivo.variable} font-archivo`}>
+        {children}
+      </body>
     </html>
   );
 }

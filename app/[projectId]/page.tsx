@@ -54,11 +54,11 @@ const Project: FC<ProjectProps> = ({ params }) => {
         </div>
       </section>
 
-      <section className="bg-purple-medium w-full h-auto pb-30 pt-16 z-1 rounded-t-3xl absolute mt-[-25px]">
-        <div className="px-6 md:px-[200px] lg:px-[400px] md:flex md:flex-col">
+      <section className="bg-purple-medium w-full h-auto pb-32 pt-16 z-1 rounded-t-3xl absolute mt-[-25px]">
+        <div className="px-6 md:px-[200px] lg:px-[400px] 2xl:px-[600px] md:flex md:flex-col">
           <div className="mb-12">
             <Image
-              className=""
+              className="border border-[#D6CEE5]"
               src={`/projectImages/${url}/${image}.jpg`}
               alt="Project image"
               height={600}
@@ -90,6 +90,14 @@ const Project: FC<ProjectProps> = ({ params }) => {
 
         </div>
       </section>
+      <footer className="absolute flex flex-col justify-center items-center bg-purple-dark h-40 w-full z-20 mt-[820px] md:mt-[940px] rounded-t-3xl">
+            <p className="text-sm mb-4 text-purple-light">
+                Lisa Mari Myrene – Portfolio BWU 2024
+            </p>
+            <p className="text-sm text-purple-light">
+                Created in Next.js with Tailwind CSS and hosted on Vercel
+            </p>
+        </footer>
     </>
   );
 };
