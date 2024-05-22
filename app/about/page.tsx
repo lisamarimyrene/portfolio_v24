@@ -30,7 +30,7 @@ export default function About() {
       </section>
 
 
-      <div className="px-6 md:px-20 bg-purple-medium w-full  pt-16 md:pt-20 z-1 absolute b-0 rounded-t-3xl mt-[-26px]">
+      <div className="px-6 md:px-20 bg-purple-medium w-full pt-16 md:pt-20 z-1 absolute pb-20 xl:pb-40 2xl:pb-72 3xl:pb-80 rounded-t-3xl mt-[-26px]">
         <div className="flex flex-col lg:flex-row w-full items-top pb-16">
 
           <div className="md:max-w-[70%] lg:max-w-[50%] md:mr-20">
@@ -71,7 +71,7 @@ export default function About() {
             />
         </div>
       </div> */}
-      {/* <footer className="absolute flex flex-col justify-center items-center bg-orange h-40 w-full z-20 mt-[1130px] md:mt-[930px] rounded-t-xl">
+      {/* <footer className="absolute flex flex-col justify-center items-center bg-orange h-40 w-full z-20 mt-[530px] md:mt-[330px] rounded-t-xl">
             <p className="text-sm mb-4 text-purple-dark">
                 Lisa Mari Myrene – Portfolio BWU 2024
             </p>
