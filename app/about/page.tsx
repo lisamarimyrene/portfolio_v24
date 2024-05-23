@@ -1,7 +1,7 @@
 import { Navbar } from "../../components/Navbar";
 import Image from "next/image";
 import LisaMariMyrene from "../../public/LisaMariMyrene.png"
-import Timeline from "../../public/timeline.png"
+import Timeline1 from "../../public/timeline1.png"
 import { Button } from "../../components/Button";
 
 export default function About() {
@@ -30,7 +30,7 @@ export default function About() {
       </section>
 
 
-      <div className="px-6 md:px-20 bg-purple-medium w-full pt-16 md:pt-20 z-1 absolute pb-20 xl:pb-40 2xl:pb-72 3xl:pb-80 rounded-t-3xl mt-[-26px]">
+      <div className="px-6 md:px-20 bg-purple-medium w-full pt-16 md:pt-20 z-1 absolute pb-20 xl:pb-32 mt-[-26px]">
         <div className="flex flex-col lg:flex-row w-full items-top pb-16">
 
           <div className="md:max-w-[70%] lg:max-w-[50%] md:mr-20">
@@ -38,7 +38,7 @@ export default function About() {
             <p className="text-base mb-10 md:mb-16">What inspires me to pursue a career in development is the joy of creating meaningful digital experiences with a focus on accessibility and usability. I believe that working creatively and systematically with people is the key to developing innovative concepts for the web. I look forward to acquiring more knowledge and experience in working life after finishing my studies!</p>
           </div>
             
-          <div className="w-full h-fit pt-6 pb-4 md:pb-8 bg-purple-dark rounded-xl px-6 text-purple-light">
+          <div className="w-full h-fit pt-6 pb-4 md:pb-8 bg-purple-dark rounded-xl px-6 text-purple-light mb-2">
             <h4 className="text-lg mb-6">Connect with me!</h4>
             <p className="text-base">I am always looking to further develop my skillset an broaden my knowledge.</p>
             <p className="text-base mb-8">If you want to have a chat or get to know me more, let’s link!</p>
@@ -59,7 +59,16 @@ export default function About() {
           </div>
             
         </div>
+        <div className="w-full flex justify-t pb-8 md:pb-0">
+          <Image
+              src={Timeline1}
+              alt="Picture of BWU Timeline"
+              height={300}
+              width={800}
+          />
+        </div>
       </div>
+    
 
       {/* <div className="px-6 md:px-20 bg-purple-dark w-full pt-16 md:pt-32 z-1 pb-0 md:pb-28 flex justify-center items-center h-[450px] md:h-[600px] mt-[745px] md:mt-[770px] lg:mt-[370px]">
         <div className="w-full flex justify-center pb-14 md:pb-0">
