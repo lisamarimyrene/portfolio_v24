@@ -40,8 +40,8 @@
     },
     "keywords": "Web Components, MERN stack, authentification, authorization, REST API, teamwork",
     "intro": "Developed a Table Tennis League App for NTNU in Gjøvik to efficiently register players, track results, and provide features like leaderboards and game history.",
-    "description1": "In this group project, we developed a digital booking system for the workshop at NTNU Gjøvik. The whole subject was aimed at the development of the project, which gave us time to transform a project idea into a minimal viable product (MVP), where we collaborated with a fictitious project owner to identify requirements, establish design systems, and develop a working web application. ",
-    "description2": "The project gave us a great insight and learning curve in full stack web technologies (MERN stack), in addition to hosting and CSS frameworks. This was really an exciting project where we got to try our hand at developing a booking system with user roles, login system and administrative functions.",
+    "description1": "Table tennis is a popular activity at NTNU in Gjøvik, leading to a need for an efficient way to register players and track results. To address this, my group developed the Table Tennis League App as part of our Full-stack course examination. This application allows players to easily register and record their matches, and view their standings. Key features include a leaderboard, personal profiles, and game history tracking.",
+    "description2": "In this project, we managed everything from initial planning in Figma to back-end and front-end development. We utilized the MERN stack, web components, REST APIs, and vanilla CSS. This experience was very educational, particularly in understanding the interaction between fullstack systems, databases, web components.",
     "link": "https://github.com/lisamarimyrene/IDG2100_TableTennisLeague"
   },
   {
@@ -55,8 +55,8 @@
     },
     "keywords": "Accessibilty, User needs, Screen reader, Persona, WCAG 2.1, Aria labels",
     "intro": "I developed an accessible climbing-themed website that focused on WCAG guidelines, implementing screen reader support, media playback tools, and ARIA attributes. Gained valuable experience in web accessibility and human-machine interaction.",
-    "description1": "In this group project, we developed a digital booking system for the workshop at NTNU Gjøvik. The whole subject was aimed at the development of the project, which gave us time to transform a project idea into a minimal viable product (MVP), where we collaborated with a fictitious project owner to identify requirements, establish design systems, and develop a working web application. ",
-    "description2": "The project gave us a great insight and learning curve in full stack web technologies (MERN stack), in addition to hosting and CSS frameworks. This was really an exciting project where we got to try our hand at developing a booking system with user roles, login system and administrative functions.",
+    "description1": "This project was aimed at universal design, including design and accessibility adaptations for the web. I developed an informative website with the theme of climbing. The website was designed with a focus on international guidelines such as WCAG, where I implemented features such as screen reader support, media playback tools, table structure and form fields using, among other things, ARIA attributes and correct semantic HTML.",
+    "description2": "Through this project I gained valuable experience with human-machine interaction and evaluation of accessibility on the web.",
     "link": "https://github.com/lisamarimyrene/IDG2012_ExamProject"
   },
   {
